@@ -51,18 +51,21 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="bAbrir" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="bNuevo" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="bRun1" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="bGuardar" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="bRun1" max="32767" attributes="0"/>
+                  <Component id="bGuardar" alignment="0" max="32767" attributes="0"/>
+                  <Component id="bAbrir" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="bNuevo" min="-2" pref="40" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Component id="jScrollPane1" min="-2" pref="295" max="-2" attributes="0"/>
                   <Component id="jScrollPane2" min="-2" pref="295" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-              <Component id="jTabbedPane1" pref="171" max="32767" attributes="0"/>
+              <Component id="jTabbedPane1" pref="182" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -71,14 +74,9 @@
   <SubComponents>
     <Component class="javax.swing.JButton" name="bGuardar">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/img/disquete (1).png"/>
-        </Property>
+        <Property name="text" type="java.lang.String" value="GUARDAR"/>
         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
           <Color id="Default Cursor"/>
-        </Property>
-        <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/img/salvar (1).png"/>
         </Property>
       </Properties>
       <Events>
@@ -150,14 +148,9 @@
     </Container>
     <Component class="javax.swing.JButton" name="bNuevo">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/img/agregar-archivo.png"/>
-        </Property>
+        <Property name="text" type="java.lang.String" value="NUEVO"/>
         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
           <Color id="Default Cursor"/>
-        </Property>
-        <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/img/agregar-archivo (1).png"/>
         </Property>
       </Properties>
       <Events>
@@ -166,14 +159,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="bAbrir">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/img/caja (1).png"/>
-        </Property>
+        <Property name="text" type="java.lang.String" value="CARGAR"/>
         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
           <Color id="Default Cursor"/>
-        </Property>
-        <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/img/caja (2).png"/>
         </Property>
       </Properties>
       <Events>
@@ -182,14 +170,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="bRun1">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/img/boton-de-play.png"/>
-        </Property>
+        <Property name="text" type="java.lang.String" value="RUN"/>
         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
           <Color id="Default Cursor"/>
-        </Property>
-        <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/img/jugar (1).png"/>
         </Property>
       </Properties>
       <Events>
